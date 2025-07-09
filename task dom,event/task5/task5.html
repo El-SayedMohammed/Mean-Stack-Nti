@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Number Input Only</title>
+</head>
+<body>
+
+  <h2>Enter Numbers Only</h2>
+  <input type="text" id="input" placeholder="Type numbers only">
+  <p id="output"></p>
+
+  <script>
+    let input = document.getElementById("input");
+    let output = document.getElementById("output");
+
+    input.addEventListener("keydown", function(event) {
+      if (
+        (event.key >= '0' && event.key <= '9') ||
+        event.key === 'Backspace' ||
+        event.key === 'Delete' ||
+        event.key === 'ArrowLeft' ||
+        event.key === 'ArrowRight' ||
+        event.key === 'Tab'
+      ) {
+        output.textContent = "";
+      } else {
+        event.preventDefault();
+        output.textContent = "vaild number";
+      }
+    });
+  </script>
+
+</body>
+</html>
