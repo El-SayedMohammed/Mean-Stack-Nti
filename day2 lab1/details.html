@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>post</title>
+<style>
+  body {
+    background: #f9fafb;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 1.5rem;
+    min-height: 100vh;
+  }
+
+  .card {
+    padding: 2rem;
+    width: 300px;
+    border-radius: 16px;
+    box-shadow: 0 4px 16px rgba(20, 55, 254, 0.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+
+  .card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.08);
+  }
+
+  .card h1 {
+    font-size: 1.4rem;
+    margin-bottom: 1rem;
+    color: #1f2937;
+  }
+
+  .card p {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #374151;
+  }
+
+
+
+  .back-link {
+    position: absolute;
+    top: 1rem;
+    left: 1rem;
+  }
+
+  .product__back {
+    text-decoration: none;
+    color: #0962fd;
+    font-weight: bold;
+    font-size: 1rem;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.3rem;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    background-color: #e5e7eb;
+    transition: background 0.2s ease;
+  }
+
+  .product__back:hover {
+    background-color: #d1d5db;
+  }
+</style>
+
+</head>
+<body>
+  <div class="card">
+    <div class="back-link">
+      <a href="/home" class="product__back">← Back to Home</a>
+    </div>
+    <h1>{{ title }}</h1>
+    <p>{{ body }}</p>
+    <p>{{ price }}</p>
+  </div>
+</body>
+</html>
