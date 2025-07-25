@@ -1,0 +1,48 @@
+{
+  "posts": [
+    {
+      "title": "Angular Basics",
+      "body": "Learning components, bindings, and directives.",
+      "id": 1,
+      "userid": 1,
+      "date": "2025-07-22T00:00:00Z",
+      "imgurl": "https://www.egypttoursportal.com/images/2025/04/The-Red-Sea-Egypt-Tours-Portal.jpg",
+      "like": true,
+      "likes": 0,
+      "comments": []
+    },
+    {
+      "title": "Angular Basics",
+      "body": "Learning components, bindings, and directives.",
+      "id": 2,
+      "userid": 2,
+      "date": "2025-07-22T00:00:00Z",
+      "imgurl": "https://www.egypttoursportal.com/images/2025/04/The-Red-Sea-Egypt-Tours-Portal.jpg",
+      "like": true,
+      "likes": 0,
+      "comments": []
+    },
+    {
+      "title": "Angular Basics",
+      "body": "Learning components, bindings, and directives.",
+      "id": 3,
+      "userid": 3,
+      "date": "2025-07-22T00:00:00Z",
+      "imgurl": "https://www.egypttoursportal.com/images/2025/04/The-Red-Sea-Egypt-Tours-Portal.jpg",
+      "like": true,
+      "likes": 0,
+      "comments": []
+    },
+    {
+      "title": "Angular Basics",
+      "body": "Learning components, bindings, and directives.",
+      "id": 4,
+      "userid": 4,
+      "date": "2025-07-22T00:00:00Z",
+      "imgurl": "https://www.egypttoursportal.com/images/2025/04/The-Red-Sea-Egypt-Tours-Portal.jpg",
+      "like": true,
+      "likes": 0,
+      "comments": []
+    }
+  ]
+}
