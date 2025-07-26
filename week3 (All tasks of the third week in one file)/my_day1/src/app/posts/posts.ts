@@ -44,7 +44,7 @@ export class Posts implements OnInit {
   }
 
   addpost() {
-    // احذف الـ id علشان json-server يولد id تلقائي
+  
 const postToSend: any = { ...this.newpost };
 delete postToSend.id;
 
