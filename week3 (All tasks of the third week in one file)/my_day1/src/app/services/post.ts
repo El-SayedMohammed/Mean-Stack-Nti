@@ -15,7 +15,7 @@ export class Post {
     return this.http.get<Ipost[]>(this.apiurl);
   }
 
-  // ✅ تم تصحيح الاسم هنا
+
   addposts(post: Ipost): Observable<Ipost> {
     return this.http.post<Ipost>(this.apiurl, post);
   }
